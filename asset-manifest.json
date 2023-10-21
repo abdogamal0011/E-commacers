@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/E-commacers/static/css/main.298ab0a0.css",
+    "main.js": "/E-commacers/static/js/main.b7216cb3.js",
+    "static/media/purepng.com-mastercard-logologobrand-logoiconslogos-251519938372dnf77.png": "/E-commacers/static/media/purepng.com-mastercard-logologobrand-logoiconslogos-251519938372dnf77.80a52eb6701e1bd8f4dc.png",
+    "static/media/slider-image-1.jpeg": "/E-commacers/static/media/slider-image-1.3c3940ee0f1c3b17ff9a.jpeg",
+    "static/media/parmesan-crumbed-chicken-schnitzel-fried-eggs-and-apple-cabbage-slaw-173352-2.jpg": "/E-commacers/static/media/parmesan-crumbed-chicken-schnitzel-fried-eggs-and-apple-cabbage-slaw-173352-2.1b72455a8fc1770c0237.jpg",
+    "static/media/photo-1546069901-ba9599a7e63c.jpg": "/E-commacers/static/media/photo-1546069901-ba9599a7e63c.d3a7de324b645ffee97a.jpg",
+    "static/media/slider-image-3.jpeg": "/E-commacers/static/media/slider-image-3.7e5c9f7a513f6db6dd5e.jpeg",
+    "static/media/slider-image-2.jpeg": "/E-commacers/static/media/slider-image-2.e510b0de8a4d96a1d5ad.jpeg",
+    "static/media/404.webp": "/E-commacers/static/media/404.3ef2b29e5f512fea237a.webp",
+    "static/media/2560px-Amazon_Pay_logo.svg.png": "/E-commacers/static/media/2560px-Amazon_Pay_logo.svg.f1d7ed8012ba50041d47.png",
+    "static/media/PayPal.svg.png": "/E-commacers/static/media/PayPal.svg.088671dded675d04af8f.png",
+    "static/media/American-Express-Logo-PNG-File.png": "/E-commacers/static/media/American-Express-Logo-PNG-File.ff77910475d812e4fbe7.png",
+    "static/media/th1.png": "/E-commacers/static/media/th1.640b0a5ffa2b946dc100.png",
+    "static/media/th2.png": "/E-commacers/static/media/th2.e48ce75c65dcf2d39ace.png",
+    "static/media/freshcart-logo.svg": "/E-commacers/static/media/freshcart-logo.53f7a424c3aedc30a0fb46dc2278137c.svg",
+    "index.html": "/E-commacers/index.html",
+    "main.298ab0a0.css.map": "/E-commacers/static/css/main.298ab0a0.css.map",
+    "main.b7216cb3.js.map": "/E-commacers/static/js/main.b7216cb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.298ab0a0.css",
+    "static/js/main.b7216cb3.js"
+  ]
+}
