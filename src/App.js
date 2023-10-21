@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { Outlet, useNavigation } from "react-router-dom";
+import Navbar from "./components/ui/Navbar/Navbar";
+import Footer from "./components/ui/Footer/Footer";
+import Spinner from "./components/ui/Spinner/Spinner";
+import UserProvider from "./components/context/UserContext";
+import ProductsProvider from "./components/context/ProductsContext";
+import CartProvider from "./components/context/CartContext";
+import WishlistProvider from "./components/context/WishlistContext";
+import { Toaster } from "react-hot-toast";
+import CategoriesProvider from "./components/context/CategoriesContext";
+import ScrollToTop from "./components/helpers/ScrollToTop";
+import BrandsProvider from "./components/context/BrandsContext";
 
 function App() {
+  const { state } = useNavigation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <UserProvider>
+        <ProductsProvider>
+          <CartProvider>
+            <WishlistProvider>
+              <CategoriesProvider>
+                <BrandsProvider>
+                  <Navbar />
+                  <main style={{ marginBlock: "60px", flexGrow: 1, position: "relative" }}>
+                    {state === "loading" && <Spinner />}
+                    <Outlet />
+                  </main>
+                </BrandsProvider>
+              </CategoriesProvider>
+            </WishlistProvider>
+          </CartProvider>
+        </ProductsProvider>
+      </UserProvider>
+      <Toaster />
+      <ScrollToTop />
+      <Footer />
+    </>
   );
 }
 
